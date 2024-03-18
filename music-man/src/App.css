@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, lightblue, lightcoral);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.SignInBox {
+  background-image: linear-gradient(to bottom right, lightgray, black);
+  color: black;
+  display: flex;
+  flex-direction: column;
+
+  height: 400px;
+  width: 600px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.sign-in-buttons {
+  /*align-self: center;*/
+  /*align-content: center;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  display: flex;
+  flex-direction: column;
+
+}
+
+.log-buttons {
+  width: 200px;
+  /*margin-bottom: 50px;*/
+  min-height: 0;
+  min-width: 0;
+  display: inline-flex;
+  padding: 50px;
+}
+
+.main-page {
+  background-image: linear-gradient(to bottom right, lightgray, black);
+  color: black;
+  display: flex;
+  flex-direction: row;
+
+  height: 90vh;
+  width: 90vw;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/*.sidebar {*/
+/*  height: 95%;*/
+/*  width: 10%;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  !*background-color: blue;*!*/
+/*  margin: 15px 0 15px 15px;*/
+/*}*/
+
+.content {
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  /*align-items: end;*/
+  /*background-color: red;*/
+  /*margin: 15px 15px 15dpx 0;*/
+}
+
+.profile-name {
+  margin-top: -1px;
+}
+
+.playlist-grid {}
+
+.playlist {
+  width: 300px;
+  height: 350px;
+  margin: 10px 40px;
+  /*background-image: linear-gradient(white, black);*/
+}
+
+.playlist-title {
+  background-color: white;
+  font-size: x-large;
+  width: 100%;
+  height: 10%;
+}
+
+.playlist-image {
+  background-color: darkgreen;
+  width: 100%;
+  height: 90%;
+}
+
+.Playlist-List {
+  display: flex;
+  flex-direction: row;
+}
+
+.new-playlist-button {
+  width: 300px;
+  height: 350px;
+  margin: 10px 40px;
+  background-color: lightgray;
+  font-size: xxx-large;
+}
